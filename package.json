@@ -6,7 +6,7 @@
   "scripts": {
     "build": "webpack --mode=production",
     "start": "webpack-cli serve --mode development",
-    "lint-fix" : "eslint --fix './src/**/*.{js,ts}' && prettier --write './src/**/*.{js,ts}' "
+    "lint-fix": "eslint --fix './src/**/*.{js,ts}' && prettier --write './src/**/*.{js,ts}' "
   },
   "repository": {
     "type": "git",
@@ -38,7 +38,7 @@
     }
   },
   "lint-staged": {
-    "src/**/*.{js,ts}" : [
+    "src/**/*.{js,ts}": [
       "npm run lint-fix"
     ]
   }
