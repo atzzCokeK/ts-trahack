@@ -17,6 +17,10 @@
 // import { isUserSignedIn, isUserSignedIn2, sumPrice } from './function/parameters'
 import objectSample from './object/object'
 import typeAliasSample from './object/alias'
+import arraySample from './array/array'
+import sampleTuple from './array/tuple'
 
 objectSample()
 typeAliasSample()
+arraySample()
+sampleTuple()
