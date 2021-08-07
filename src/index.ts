@@ -13,13 +13,10 @@
 // anySample()
 
 // 04.関数の型定義
-import { logMessage, logMessage2 } from './function/basic'
-import { isUserSignedIn, isUserSignedIn2, sumPrice } from './function/parameters'
+// import { logMessage, logMessage2 } from './function/basic'
+// import { isUserSignedIn, isUserSignedIn2, sumPrice } from './function/parameters'
+import objectSample from './object/object'
+import typeAliasSample from './object/alias'
 
-isUserSignedIn('ABC', 'a2c')
-isUserSignedIn('DEF')
-isUserSignedIn2('ABC', 'tra')
-isUserSignedIn2('DEB', 'tra')
-console.log(sumPrice(1, 3, 5))
-
-logMessage('hello')
+objectSample()
+typeAliasSample()
