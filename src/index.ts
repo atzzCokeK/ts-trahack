@@ -15,12 +15,20 @@
 // 04.関数の型定義
 // import { logMessage, logMessage2 } from './function/basic'
 // import { isUserSignedIn, isUserSignedIn2, sumPrice } from './function/parameters'
-import objectSample from './object/object'
-import typeAliasSample from './object/alias'
-import arraySample from './array/array'
-import sampleTuple from './array/tuple'
+// import objectSample from './object/object'
+// import typeAliasSample from './object/alias'
+// import arraySample from './array/array'
+// import sampleTuple from './array/tuple'
+//
+// objectSample()
+// typeAliasSample()
+// arraySample()
+// sampleTuple()
 
-objectSample()
-typeAliasSample()
-arraySample()
-sampleTuple()
+import callbackSample from './asynchronous/callback'
+import promiseSample from './asynchronous/promise'
+import asyncAwaitSample from './asynchronous/asyncAwait'
+
+// callbackSample()
+// promiseSample()
+asyncAwaitSample()
